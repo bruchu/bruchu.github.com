@@ -10,10 +10,10 @@ group: navigation
 	<title>Resume | Bruce H Chu</title>
 	<meta name="robots" content="noindex, nofollow">
 
-    <link href="/css/custom.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="/css/print.css" rel="stylesheet" type="text/css" media="print" />
+    <link href="{{ site.baseurl }}/css/custom.css?bust={{ site.time | date_to_xmlschema | cgi_escape }}" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ site.baseurl }}/css/print.css" rel="stylesheet" type="text/css" media="print" />
     <!--[if IE]>
-        <link href="/css/ie.css" rel="stylesheet" type="text/css" media="screen, projection" />
+        <link href="{{ site.baseurl }}/css/ie.css" rel="stylesheet" type="text/css" media="screen, projection" />
     <![endif]-->
 
 	<style type="text/css" media="all">
