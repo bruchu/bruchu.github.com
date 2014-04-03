@@ -28,9 +28,6 @@ author :
 #
 production_url : http://www.brucechu.com
 
-gems:
-- jekyll-compass
-
 markdown: kramdown
 
 
