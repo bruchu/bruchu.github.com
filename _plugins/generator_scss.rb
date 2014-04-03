@@ -7,6 +7,9 @@
 # Compiles .scss files in ./_scss to .css files in whatever directory you indicated in your config
 # Config file placed in ./_sass/config.rb
 #
+# found here:
+# * https://github.com/chriseppstein/compass/wiki/Jekyll-Integration
+# * https://gist.github.com/parkr/2874934
 
 require 'sass'
 require 'pathname'

@@ -18,7 +18,6 @@ Other interests: travel, [dive bars](http://www.yelp.com/biz/lucky-13-san-franci
 <h2>Blog.</h2>
 <div>
   {% for post in site.posts %}
-    <hr>
     <div>
         <div class="span5">
 	        <h4><strong><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></strong></h4>
