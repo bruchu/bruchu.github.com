@@ -15,8 +15,8 @@ Music: I'm a dad now, so it is increasingly hard to listen to anything but the T
 
 Other interests: travel, [dive bars](http://www.yelp.com/biz/lucky-13-san-francisco), [street food](http://www.ladyironchef.com/tag/best-hawker-centre-singapore/)
 
+<h2>Blog.</h2>
 <div>
-    
   {% for post in site.posts %}
     <hr>
     <div>
