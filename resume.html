@@ -1,5 +1,7 @@
 ---
-layout: none
+layout: pages
+header: Pages
+group: navigation
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -7,106 +9,23 @@ layout: none
 	<meta charset="utf-8">
 	<title>Resume | Bruce H Chu</title>
 	<meta name="robots" content="noindex, nofollow">
+
+    <link href="/css/custom.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/print.css" rel="stylesheet" type="text/css" media="print" />
+    <!--[if IE]>
+        <link href="/css/ie.css" rel="stylesheet" type="text/css" media="screen, projection" />
+    <![endif]-->
+
 	<style type="text/css" media="all">
 		html {
 		  background-color:#EEE;
 		  padding:0 1em;
 		}
-		body {
-		  background-color:#FFF;
-		  font-family:"Trebuchet MS", Helvetica, Arial;
-		  padding:1em;
-		  border:solid #AAA;
-		  border-width:1px 3px 3px 1px;
-		  margin:1em auto;
-		  max-width: 50em;
-		}
-        #compact-address {
-          margin: 0 0 0 0;
-        } 
-		#address{
-		  height:5em;
-		  width:47em;
-		  margin:1em 0 1em 0;
-		}
-		#address div{
-		  width:13em;
-		  float:left;
-		  padding:0 .5em 0 1.5em;
-		  border-left:1px solid #CCC;
-		}
-		#address div#first{
-		  border-left:none;
-		}
-		#address h3{
-		  border-bottom: none;
-		  margin-top: 0;
-		}	
-		.date {
-		  float:right;
-		  font-size:.8em;
-		  margin-top:.4em;
-		  text-align:right;
-		}
-        #contact-info h1 {
-		  font-size:2.0em;
-		  font-family: Helvetica, Verdana, Arial, sans-serif;
-          margin-top: 0;
-          margin-bottom: 0;
-		}
+	</style>
 
-        }
-		abbr, acronym{
-		  border-bottom:1px dotted #333;
-		  cursor:help;
-		}	
-		address{
-		  font-style:italic;
-		  color:#333;
-		  font-size:.9em;
-		}
-		
-		
-		h1{
-		  font-size:1.3em;
-		  font-family: Helvetica, Verdana, Arial, sans-serif;
-          margin-top: 0;
-          margin-bottom: 0;
-		}
-		h2 {
-		  clear:both;
-		  font-size: 1.2em;
-		  font-weight:bold;
-		  margin-top: .3em;
-		  margin-bottom: .3em;
-		  font-variant: small-caps;
-		  padding-left:.25em;
-		  background-color:#EEE;
-		  border-bottom: 1px solid #999;
-		  letter-spacing: .06em;
-		}
-		h3 {margin: 1em 0 0 0;}
-        .email { font-family: courier, serif; }
-        .email a { text-decoration: none; }
-        ul.skills { list-style-type: none; }
-        .company-name { font-weight: bold; }
-        .job-title { font-weight: bold; font-style: italic; }
-        .job-description ul { margin: 0; padding-left: 20px; }
-        .summary-of-qualifications ul { margin: 0; padding-left: 20px; }
-        .job-description { margin-bottom: 12px; }
-        .job-info { clear: both; }
-        .long-version { display: none; }
-	</style>
-    <style type="text/css" media="print">
-	  body {
-		background-color:#FFF;
-		border-width:0 0 0 0;
-		margin:0;
-		width:100%
-	  }
-	</style>
+
 </head>
-<body>
+<body id="resume">
   <div id="contact-info">
     <div id="compact-address" style="float:right; text-align: right">
       <span class="email">bruce.chu@gmail.com</span>
@@ -116,24 +35,23 @@ layout: none
     VP Engineering, Software Architect
   </div>
 	<h2>Profile</h2>
-<div class="summary-of-qualifications">Senior technology and software development leader, excelling at building great teams and products for web and mobile.
+    <div class="summary-of-qualifications">Senior technology and software development leader, excelling at building great teams and products for web and mobile.
 
-<h2>Core Competencies</h2>
-  <table>
+<h3>Core Competencies:</h3>
+  <table width="100%">
     <tr valign=top>
       <td width="50%">
         <ul>
-          <li>Product planning and roadmap</li>
-          <li>Leading/coaching development teams</li>
-          <li>Architecture and technology definition</li>
-          <li>People management and development</li>
+          <li>Leading and developing engineering teams</li>
+          <li>Architecture and technology solutions</li>
+          <li>Full-stack: front-end, back-end, operations</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Agile project management and Lean Startup </li>
-          <li>Full-stack: front-end, back-end, operations</li>
           <li>Process and team transformation or tune ups</li>
+          <li>Establishing reliable, iterative development processes</li>
+          <li>Agile / Lean product planning and roadmap</li>
         </ul>
       </td>
     </tr>
@@ -142,9 +60,9 @@ layout: none
 	<h2>Experience</h2>
 <div class="job-description">
   <span class="date">2010 &raquo; present</span>
-  <div class="job-title">Software Consultant and Entrepreneur</div>
-  Working on independent and software consulting projects leveraging lean startup methodologies and tools.
-  Summary of Projects:
+  <div class="job-title">Software Consultant and Hacking</div>
+  Working on independent and software consulting projects leveraging lean startup methodologies
+  <div>Summary of Projects:</div>
   <ul>
     <li>Develop CMS for Zensey.com in Scala (December 2013 - April 2014)</li>
     <li>Launched Cookooree.com, a social cooking website in Rails (April 2011 - July 2011)</li>
@@ -291,7 +209,7 @@ Provide technical support for SGI workstations for hardware, system administrati
 <h2>Technical Skills</h2>
 <div><b>Languages</b>: Ruby, Python, Javascript, Objective-C, Scala, Perl, SQL, CSS, HTML, PHP, Java/JSP, C++, C</div>
 <div class="long-version"><b>Web technologies</b>: SMTP, TCP/IP, HTTP, JSON, AJAX, RSS/MRSS, jQuery, REST</div>
-<div><b>Software</b>: UNIX, Rails3 (HAML, SASS, Compass, Rspec, Cucumber), Python (Tornado, coroutines), Lean startup methodologies, Object-oriented design, highly scalable systems (C10k), Agile software development, MVC, design patterns, client/server, Qmail, database (MySQL, Postgres, Mongo), social media</div>
+<div><b>Technologies</b>: UNIX, Rails3 (HAML, SASS, Compass, Rspec, Cucumber), Python (Tornado, coroutines), Lean startup methodologies, Object-oriented design, highly scalable systems (C10k), Agile software development, client/server, Qmail, database (MySQL, Postgres, Mongo), SMTP</div>
 
 	<h2>Education</h2>
 <div class="employer"><span class="company-name">University of California, Berkeley</span></div>

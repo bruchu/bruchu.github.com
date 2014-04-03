@@ -8,13 +8,14 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Bruce Chu
+title : Bruce Chu dot Com
 tagline: They call me Chub
 author :
   name : Bruce Chu
   email : 
   github : bruchu
   twitter : bruchu99
+  linkedin: brucechu
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -26,6 +27,9 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://www.brucechu.com
+
+gems:
+- jekyll-compass
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
