@@ -8,3 +8,8 @@ body #resume {
   margin: 0;
   width: 100%;
 }
+
+/* line 14, ../_sass/print.scss */
+.no-print, .no-print * {
+  display: none !important;
+}
