@@ -80,9 +80,13 @@ body#resume {
   ul.skills { list-style-type: none; }
   .company-name { font-weight: bold; }
   .job-title { font-weight: bold; font-style: italic; }
-  .job-description ul { margin: 0; padding-left: 20px; }
-  .summary-of-qualifications ul { margin: 0; padding-left: 20px; }
-  .job-description { margin-bottom: 12px; }
+  .job-description, .qualifications, .competencies {
+    ul { margin: 0; padding-left: 20px; }
+  }
+  .job-description {
+    margin-top: 12px;
+  }
+  .resume-section { margin-bottom: 12px; }
   .job-info { clear: both; }
   .long-version { display: none; }
 }
