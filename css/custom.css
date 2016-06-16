@@ -59,14 +59,14 @@ body#resume address {
   color: #333;
   font-size: .9em;
 }
-/* line 55, ../_sass/custom.scss */
+/* line 54, ../_sass/custom.scss */
 body#resume h1 {
   font-size: 1.3em;
   font-family: Helvetica, Verdana, Arial, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 61, ../_sass/custom.scss */
+/* line 60, ../_sass/custom.scss */
 body#resume h2 {
   clear: both;
   font-size: 1.2em;
@@ -79,50 +79,50 @@ body#resume h2 {
   border-bottom: 1px solid #999;
   letter-spacing: .06em;
 }
-/* line 73, ../_sass/custom.scss */
+/* line 72, ../_sass/custom.scss */
 body#resume h3 {
   font-size: 1.0em;
   margin: .4em 0 0 0;
 }
-/* line 78, ../_sass/custom.scss */
+/* line 77, ../_sass/custom.scss */
 body#resume .email {
   font-family: courier, serif;
 }
-/* line 79, ../_sass/custom.scss */
+/* line 78, ../_sass/custom.scss */
 body#resume .email a {
   text-decoration: none;
 }
-/* line 80, ../_sass/custom.scss */
+/* line 79, ../_sass/custom.scss */
 body#resume ul.skills {
   list-style-type: none;
 }
-/* line 81, ../_sass/custom.scss */
+/* line 80, ../_sass/custom.scss */
 body#resume .company-name {
   font-weight: bold;
 }
-/* line 82, ../_sass/custom.scss */
+/* line 81, ../_sass/custom.scss */
 body#resume .job-title {
   font-weight: bold;
   font-style: italic;
 }
-/* line 84, ../_sass/custom.scss */
+/* line 83, ../_sass/custom.scss */
 body#resume .job-description ul, body#resume .qualifications ul, body#resume .competencies ul {
   margin: 0;
   padding-left: 20px;
 }
-/* line 86, ../_sass/custom.scss */
+/* line 85, ../_sass/custom.scss */
 body#resume .job-description {
   margin-top: 12px;
 }
-/* line 89, ../_sass/custom.scss */
+/* line 88, ../_sass/custom.scss */
 body#resume .resume-section {
   margin-bottom: 12px;
 }
-/* line 90, ../_sass/custom.scss */
+/* line 89, ../_sass/custom.scss */
 body#resume .job-info {
   clear: both;
 }
-/* line 91, ../_sass/custom.scss */
+/* line 90, ../_sass/custom.scss */
 body#resume .long-version {
   display: none;
 }

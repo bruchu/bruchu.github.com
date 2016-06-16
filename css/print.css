@@ -1,15 +1,19 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-/* line 6, ../_sass/print.scss */
-body #resume {
+/* line 5, ../_sass/print.scss */
+body#resume {
   background-color: #FFF;
   border-width: 0 0 0 0;
   margin: 0;
   width: 100%;
 }
+/* line 10, ../_sass/print.scss */
+body#resume .resume-section {
+  font-size: .9rem;
+}
 
-/* line 14, ../_sass/print.scss */
+/* line 15, ../_sass/print.scss */
 .no-print, .no-print * {
   display: none !important;
 }

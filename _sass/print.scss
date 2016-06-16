@@ -2,14 +2,15 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 
-body {
-  #resume {
-    background-color:#FFF;
-    border-width:0 0 0 0;
-    margin:0;
-    width:100%
-  }
-}
+body#resume {
+	background-color: #FFF;
+	border-width: 0 0 0 0;
+	margin: 0;
+	width: 100%;
+	.resume-section {
+	  font-size: .9rem;
+	}
+} 	
 
 .no-print, .no-print * {
   display: none !important;
