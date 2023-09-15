@@ -6,14 +6,15 @@ body#resume {
   background-color: #FFF;
   border-width: 0 0 0 0;
   margin: 0;
-  width: 100%;
+  width: 98%;
+  size: letter;
 }
 /* line 10, ../_sass/print.scss */
 body#resume .resume-section {
   font-size: .9rem;
 }
 
-/* line 15, ../_sass/print.scss */
+/* line 16, ../_sass/print.scss */
 .no-print, .no-print * {
   display: none !important;
 }
